@@ -1,33 +1,47 @@
 # pantographix-shield
 
-Pantographix Shield.
+# pantographix-shield  Pantographix Shield.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1K655D8W8Vrq4AgeVjslsw0rjnWfBzgYn
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- (ninguno legible como texto)
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+blindaje/
+DATOS_PENDIENTES.md
+datos_pendientes.yaml
+LICENSE
+README.md
+REFERENCIAS.md
+requirements.txt
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- Diseños_del_Futuro__2026.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1vh83VEyfUia_at5ZQxd4vmvomqpi6e04/view?usp=drivesdk
-- El_Futuro_es_Natural.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1Uq5tHm6xhSCVAgk_mDCpXFOeQpFWAd0b/view?usp=drivesdk
-- Las_Invenciones_de_2026.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1brab7E0DRW3NxkxLhf2ZqsVJdT1I8HAu/view?usp=drivesdk
-- Pantographix_Shield.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1rEMfWxrRMHMqvIlpE_jtmy1vrPFcvt2e/view?usp=drivesdk
-- Pantographix_Shield.pdf · pendiente: en Drive · https://drive.google.com/file/d/1DugNk-5Lm3vDF6I3M1seVCKxctvNycC3/view?usp=drivesdk
-- unnamed.png · pendiente: en Drive · https://drive.google.com/file/d/1Qy14xzS30fMEh25Wqrm4p_CN-0wDju4o/view?usp=drivesdk
+```bash
+pip install -r requirements.txt
+```
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
 
-## Módulo funcional `blindaje` (esperando datos)
+## Uso
 
-blindaje: eficacia de blindaje electromagnético de campo lejano de una lámina, SE = A + R (Schelkunoff 1938). SUPUESTO: Pantographix Shield es un blindaje EM. El autor debe confirmarlo, porque los documentos fuente están en Drive y no se han podido leer.
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `blindaje/__init__.py`
+- `blindaje/pendientes.py`
+- `tests/conftest.py`
+- `tests/test_blindaje.py`
 
-`pip install -r requirements.txt && python -m pytest -q`. Los datos que faltan están en [DATOS_PENDIENTES.md](DATOS_PENDIENTES.md).
+
+## Licencia
+
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
